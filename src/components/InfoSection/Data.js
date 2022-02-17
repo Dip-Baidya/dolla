@@ -32,17 +32,17 @@ export const homeObjTwo = {
 };
 export const homeObjThree = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Join Our Team',
     headLine: 'Creating an account is extremely easy',
     description: 'Get Everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
     buttonLabel: 'Start Now',
     imgStart: false,
-    img: require('https://svgshare.com/i/eL5.svg'),
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    img: require('../../images/svg-1.svg'),
+    alt: 'PiggyBank',
+    dark: false,
+    primary: false,
+    darkText: true
 };

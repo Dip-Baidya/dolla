@@ -12,7 +12,7 @@ const SignUp = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText,
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
-                                <Subtitle darkText={darkText}  >{description}</Subtitle>
+                                <Subtitle darkText={darkText} style={{color: "#010606"}} >{description}</Subtitle>
                                 <BtnWrap>
                                     <Button to="home"
                                         smooth={true}
